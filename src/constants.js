@@ -39,20 +39,20 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import manitLogo from './assets/education_logo/manit.jpg';
+import bsaLogo from './assets/education_logo/manit.jpg';
+import vpsLogo from './assets/education_logo/manit.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import datacrafterLogo from './assets/work_logo/datacrafter.jpg';
+import luxoraLogo from './assets/work_logo/luxora.png';
+// import movierecLogo from './assets/work_logo/movie_rec.png';
+import SimonGameLogo from './assets/work_logo/SimonGame.png';
+import PortfolioLogo from './assets/work_logo/Portfolio.png';
+import FrostyFoodLogo from './assets/work_logo/FrostyFood.png';
+import TicTacToeLogo from './assets/work_logo/TicTacToe.png';
+import randomGifsLogo from './assets/work_logo/randomGifsss.jpg';
+import shoppingCartLogo from './assets/work_logo/shoppingCart.jpg';
 
 
 export const SkillsInfo = [
@@ -61,14 +61,14 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
+      // { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Angular', logo: angularLogo },
+      // { name: 'Redux', logo: reduxLogo },
+      // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
+      // { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
@@ -76,12 +76,12 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      // { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -92,9 +92,9 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+      // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      // { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -106,8 +106,8 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      // { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -171,131 +171,131 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+      img: manitLogo,
+      school: "Maulana Azad National Institute of Technology (MANIT), Bhopal",
+      date: "August 2023 - July 2026",
+      grade: "8.72 CGPA",
+      desc: "I hold a Master’s degree in Computer Applications (MCA) from Maulana Azad National Institute of Technology (MANIT), Bhopal. During my academic journey, I developed a strong foundation in core areas of computer science including programming, software development, and system design. My coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Web Development, and Software Engineering. These subjects not only strengthened my technical knowledge but also enhanced my problem-solving abilities and logical thinking. My time at MANIT was instrumental in shaping my passion for technology and boosting my practical skills in both backend and frontend development.",
       degree: "Master of Computer Applications - MCA",
     },
     {
       id: 1,
       img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      school: "Holkar Science College, Indore",
+      date: "Sept 2020 - Aug 2023",
+      grade: "72.05%",
+      desc: "I completed my Bachelor’s degree in Computer Science from Holkar Science College, Indore. During this time, I explored a wide range of subjects that deepened my understanding of computing and technology, including Data Structures, Algorithms, Web Development, and Database Management Systems. Alongside technical learning, my time at Holkar also helped me grow personally—I had the opportunity to interact with diverse peers, build meaningful friendships, and adapt to new environments, which greatly enhanced my communication and interpersonal skills.",
       degree: "Bachelor of Science - BSC (Computer Science)",
     },
     {
       id: 2,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      school: "Royal Heights Heigher Secondary School, Zirapur",
+      date: "July 2019 - March 2020",
+      grade: "86.6%",
+      desc: "I completed my Class 12 education from Royal Heights Higher Secondary School, Zirapur, with a focus on the PCMB stream—Physics, Chemistry, Mathematics, and Biology. This combination of subjects not only strengthened my analytical and logical reasoning abilities but also provided a well-rounded foundation in both mathematical and life sciences.",
+      degree: "XII - PCMB",
     },
     {
       id: 3,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      school: "Vijaya Convent High School, Zirapur",
+      date: "July 2017 - March 2018",
+      grade: "94%",
+      desc: "I completed my Class 10 education at Vijaya Convent High School, Zirapur, with a strong academic focus on Science and Computer Fundamentals. This early exposure to computer concepts sparked my interest in technology and laid the groundwork for my future studies in the field of computer science.",
+      degree: "X, Science with English and Computer",
     },
   ];
   
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "DataCrafter",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "DataCrafter is an intelligent web app that lets users upload and manage files like CSV, Excel, JSON. It enables smart sorting and searching using DSA concepts such as bubble sort, quick sort, linear and binary search. Users can customize operations by column, order, type, or length, and also edit, delete, or fill missing data. With secure login via email + OTP or password.",
+      image: datacrafterLogo,
+      tags: [ "React JS","HTML", "TailwindCSS", "JavaScript", "API","Node.js", "Express.js","MongoDB"],
+      github: "https://github.com/Sonalijatav/DataCrafter.git",
+      webapp: "https://data-crafter.vercel.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Luxora",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "Luxora is a modern and user-friendly eCommerce website built to provide a seamless online shopping experience. It features product browsing by categories, detailed product views, dynamic search and filtering, and a secure cart and checkout process. Users can create accounts, manage orders, and receive updates through a clean, responsive interface.",
+      image: luxoraLogo,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Bootstrap"],
+      github: "https://github.com/Sonalijatav/Luxora.git",
+      // webapp: "https://csprep.netlify.app/",
     },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
+    // {
+    //   id: 2,
+    //   title: "TaxiTop Advertisement",
+    //   description:
+    //     "Taxi Top Advertisement is a dynamic outdoor advertising concept that involves placing digital or static ads on the tops of taxis to maximize brand visibility in high-traffic areas. The system is designed to manage and rotate advertisements based on location, time, or campaign priority. This approach offers businesses a cost-effective way to reach a wider audience on the move, while enabling real-time content updates and campaign tracking for better engagement and reach analysis.",
+    //   image: luxoraLogo,
+    //   tags: ["React JS", "API", "HTML", "TailwindCSS", "MongoDB","Express","Node.js"],
+    //   github: "https://github.com/Sonalijatav/Luxora.git",
+    //   // webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    // },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Simon Game",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Simon Game is a classic memory-based game built using HTML, CSS, and JavaScript. The game challenges users to repeat an increasingly complex sequence of colors and sounds. With each correct round, the pattern grows longer, testing the player’s memory and focus. It’s a fun and interactive project that demonstrates logic building, event handling, and UI interactivity using core web technologies.",
+      image: SimonGameLogo,
+      tags: ["HTML", "CSS", "Javascript"],
+      github: "https://github.com/Sonalijatav/SimonGame.git",
+      webapp: "https://sonalijatav.github.io/SimonGame/7.4simonGame.html",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Show-My-Skill",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "Personal Portfolio Website is a responsive and interactive web application built using React and CSS. It includes dedicated sections like Home, Projects, Skills, and Contact Me, allowing visitors to explore my work, technical abilities, and reach out easily. The site offers smooth navigation, clean design, and highlights my journey, achievements, and development projects in a professional format.",
+      image: PortfolioLogo,
+      tags: ["React.js", "HTML", "CSS"],
+      github: "https://github.com/Sonalijatav/PortfolioReact.git",
+      webapp: "https://github.com/Sonalijatav/PortfolioReact.git",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "FrostyFood",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        "Frosty Food is a static website designed using HTML and CSS, focused on showcasing a food-related business. It includes key sections like Home, About, Services, Clients, Reviews, and Contact, providing a complete overview of the brand. The site features a clean layout, intuitive navigation, and visually appealing design to highlight offerings and build trust with potential customers.",
+      image: FrostyFoodLogo,
+      tags: ["HTML", "CSS"],
+      github: "https://github.com/Sonalijatav/FrostyFood.git",
+      webapp: "https://sonalijatav.github.io/FrostyFood/FrostyFood/2%20assignment/",
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "Tic-Tac-Toe",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+        "Tic Tac Toe is a classic two-player game built using HTML, CSS, and JavaScript. It features a simple and interactive 3x3 grid where players take turns marking X and O. The game includes logic to detect wins, draws, and allows for instant replay. It demonstrates core JavaScript concepts like DOM manipulation, event handling, and game logic implementation in an engaging way.",
+      image: TicTacToeLogo,
+      tags: ["HTML", "CSS", "Javascript"],
+      github: "https://github.com/Sonalijatav/Tic-Tac-Toe.git",
+      webapp: "https://sonalijatav.github.io/Tic-Tac-Toe/",
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Random-Gifs-Generator",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+        "Random GIFs Generator is a fun and interactive web app built using React, HTML, and CSS that fetches and displays random GIFs using a third-party API (like Giphy API). With a single click, users can instantly generate and view a new GIF, making it an engaging way to explore trending or themed content. This project demonstrates API integration, state management, and dynamic rendering using core React concepts.",
+      image: randomGifsLogo,
+      tags: ["React JS", "API", "HTML", "CSS"],
+      github: "https://github.com/Sonalijatav/RandomGifsGenerator.git",
+      webapp: "https://github.com/Sonalijatav/RandomGifsGenerator.git",
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "Shopping Cart",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "Shopping Cart is an interactive web application built using React that allows users to add items, adjust quantities, and view real-time price updates based on selected products. The cart dynamically updates the total amount as users increase or decrease item quantities, providing a smooth and responsive shopping experience. This project showcases state management, component-based design, and conditional rendering in React.",
+      image: shoppingCartLogo,
+      tags: ["React JS", "HTML", "CSS"],
+      github: "https://github.com/Sonalijatav/myshoppingcart.git",
+      webapp: "https://github.com/Sonalijatav/myshoppingcart.git",
     },
   ];  
